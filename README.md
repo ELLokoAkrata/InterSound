@@ -70,10 +70,14 @@ Los tracks persisten entre reinicios del servidor.
 | Play/Stop | Inicia/detiene reproduccion |
 | CUE | Vuelve al inicio del track |
 | VOL (slider vertical) | Volumen del deck |
-| Speed (slider vertical) | Velocidad 50%-150% |
+| SPEED (slider vertical) | Velocidad 50%-150% |
 | HI/MID/LO (knobs) | EQ 3 bandas (-12 a +12 dB) |
+| Loop (1/4 - 8 beats) | Loop beatmatch en posicion actual |
+| Echo/Reverb/Filter/Flanger | Efectos con mix knob |
+| Filter freq knob | Frecuencia del filtro (escala log) |
 | Crossfader | Balance entre Deck A y B |
-| Double-click knob | Reset a 0 |
+| Double-click knob | Reset al valor por defecto |
+| Shift + drag knob | Control fino (1/5 sensibilidad) |
 | Double-click crossfader | Reset a centro |
 
 ## Stack
@@ -86,9 +90,10 @@ Los tracks persisten entre reinicios del servidor.
 
 ## Roadmap
 
-- [ ] Wavesurfer.js para waveforms reales del audio
+- [x] ~~Wavesurfer.js para waveforms reales del audio~~
+- [x] ~~Efectos (echo, reverb, filter, flanger)~~
+- [x] ~~Loops beatmatch (1/4, 1/2, 1, 2, 4, 8 beats)~~
 - [ ] BPM detection (librosa en backend)
 - [ ] Beat sync entre decks
-- [ ] Efectos (delay, reverb, filter sweep)
 - [ ] Exportar mix como audio file
-- [ ] Hot cues y loops
+- [ ] Hot cues configurables

@@ -1,0 +1,31 @@
+# Dependencies
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+
+# Audio files and DB
+backend/tracks/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+*.png
+
+# Claude local settings
+.claude/
+
+# Misc
+=0.0.6
+*.tar.gz
+nul
